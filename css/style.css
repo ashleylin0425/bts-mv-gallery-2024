@@ -1,0 +1,128 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 350px; /* Size for desktop */
+    background-image: url("sidebar.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    object-fit: contain;
+    transition: all 0.3s; /* Smooth transition */
+    display: flex;
+    /* Background overlay */
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(151, 71, 255, 0.5); 
+    }
+}
+
+/* Initially hide the toggle button and logo */
+.toggle-button,
+.logo-image {
+    display: none;
+}
+
+/* Show the sidebar only on larger screens */
+@media (min-width: 1200px) {
+    .sidebar {
+        display: flex;
+    }
+    /* Show the logo on larger screens */
+    .logo-image {
+        display: block;
+    }
+}
+
+/* Show the toggle button only on smaller screens */
+@media (max-width: 767px) {
+    .toggle-button {
+        display: block;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+
+
+.logo-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure the image appears on top */
+    /* Center the logo */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo-image img {
+    max-width: 100%; /* Make sure the logo does not exceed the container width */
+    height: auto; /* Maintain the aspect ratio of the logo */
+    vertical-align: top;
+}
+
+/* Optional: Add styles to make the sidebar look better */
+.sidebar {
+    border-right: 1px solid #ccc; /* Border on the right side */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+
+.sidebar-sticky {
+    margin-top: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/* ---------------nav items styling------------------ */
+
+.sidebar a {
+    text-decoration: none;
+    color: #EAB50D; 
+    font-weight: bold;
+    text-align: center; 
+    font-style: italic;
+    font-size: 18px;
+}
+
+.sidebar a:hover {
+    color: white;
+}
+
+
+
+.nav-link {
+    display: inline-block;
+    padding: 5px 15px; 
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.70);
+    position: relative;
+    z-index: 1;
+  }
+  
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Change background color on hover */
+  }
+  
+
+
+/* ---------------main content styling------------------ */
+
+
+
+.main-content {
+    margin-left: 250px; /* Adjust to match sidebar width */
+    transition: all 0.3s; /* Smooth transition */
+}
