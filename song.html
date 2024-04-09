@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>song</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel= "stylesheet" href="css/style.css" />
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="home.js"></script>
+  <script src="update.js"></script>
+
+  <script defer src="videoplayer.js"></script>
+</head>
+
+
+
+<body>
+    <nav class="col-md-4 sidebar">
+        <div class="logo-image">
+          <img src="logo.png" alt="logo">
+        </div>
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <!-- Your menu items -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ALBUM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MY FAVORITES</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <button class="toggle-button" onclick="toggleSidebar()">Toggle Sidebar</button>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4 content custom-height-restriction">
+        <div class = "video-title">
+          Dynamite (2021)
+        </div>
+        <div class="video-container embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" src="/assets/Dynamite.mp4" controls autoplay muted>
+            Video not supported
+          </video>
+        </div>
+    </main>
+    
+</body>

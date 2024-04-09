@@ -3,14 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Side Menu</title>
+  <title>BTS MV Gallery</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel= "stylesheet" href="css/style.css" type="text/css" />
-  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <link rel= "stylesheet" href="css/style.css" />
+  <link rel= "stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel= "stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script defer type="text/javascript" src="init.js"></script>
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
   <script src="home.js"></script>
-  <script defer src="video.js"></script>
+
+
+  <!-- <script defer src="video.js"></script> -->
 </head>
 <body>
   <nav class="col-md-4 sidebar">
@@ -30,7 +40,7 @@
           <a class="nav-link" href="#">ALBUM</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">MY PLAYLIST</a>
+          <a class="nav-link" href="#">MY FAVORITES</a>
         </li>
       </ul>
     </div>
@@ -39,10 +49,58 @@
 
   
   <!-- Main content area -->
-  <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4">
-    <div id="video-player"></div>
+
+  
+  <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4 content custom-height-restriction">
+    <div class = "video-title">
+      Dynamite (2021)
+    </div>
+    <div class="video-container embed-responsive embed-responsive-16by9">
+      <video class="embed-responsive-item" src="/assets/Dynamite.mp4" controls autoplay muted>
+        Video not supported
+      </video>
+    </div>
+    <div class="carousel-title">
+      TOP HITS
+    </div>
+    <div class="slider">
+      <a href="song.html?song=boyWithLuv">
+        <img src="/assets/boyWithLuv.jpeg" alt="boy with luv">
+      </a>
+      <a href="song.html?song=iNeedU">
+        <img src="/assets/iNeedU.jpeg" alt="i need u">
+      </a>
+      <a href="song.html?song=idol">
+        <img src="/assets/idol.jpeg" alt="idol">
+      </a>
+      <a href="song.html?song=lifeGoesOn">
+        <img src="/assets/lifeGoesOn.jpeg" alt="life goes on">
+      </a>
+      <a href="song.html?song=fakeLove">
+        <img src="/assets/fakeLove.png" alt="fake love">
+      </a>
+    </div>
+    
+    <div class="subscription-bar-title">
+      Stay Tuned...
+    </div>
+    <div class="footer">
+      <div class="subscription-bar">
+        <form action="subscribe.php" method="POST">
+          <input type="email" name="email" placeholder="  Enter your email" required>
+          <button class ="subscribe">Subscribe</button>
+        </form>
+      </div>
+      <div class="social-icons">
+        <img src="/assets/facebook.png" alt="facebook">
+        <img src="/assets/instagram.png" alt="instagram">
+        <img src="/assets/x.png" alt="X">
+      </div>
+    </div>
+    
+
+    
   </main>
       
-      <!-- Bootstrap JavaScript (required) -->
 </body>
 </html>
