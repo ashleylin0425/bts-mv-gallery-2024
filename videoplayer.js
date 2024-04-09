@@ -8,13 +8,9 @@ function embedYouTubeVideo(apiKey, videoId) {
     iframe.setAttribute("allowfullscreen", "true");
   
     // Get the video player container element by its ID
-    var videoPlayerContainer = document.getElementById("video-player");
+    var videoPlayerContainer = document.querySelector(".video-container");
   
     // Append the iframe to the video player container
     videoPlayerContainer.appendChild(iframe);
   }
   
-  // Call the embedYouTubeVideo function with the API key and video ID
-  // Replace 'YOUR_API_KEY' with your actual YouTube Data API key
-  // Replace 'VIDEO_ID_HERE' with the actual YouTube video ID
-embedYouTubeVideo('AIzaSyDVs3TqBJ1--p5EEO5rOkVXJEtbE5dIC1M', 'gdZLi9oWNZg');

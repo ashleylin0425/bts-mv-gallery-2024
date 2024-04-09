@@ -148,6 +148,16 @@ main {
     font-style: italic;
   }
 
+.album-name {
+    padding-left: 20px;
+    font-size: 20px; /* Adjust the font size as needed */
+    text-align: left; /* Center the text horizontally */
+    color: #EAB50D; 
+    text-align: left; 
+    font-style: italic;
+    font-weight: lighter;
+}
+
 .video-container {
     width: 100%;
     height: 50%;

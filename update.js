@@ -1,22 +1,21 @@
 
 const queryString = window.location.search;
-const params = new URLSearchParams(queryString)
-const chosenSong = params.get("song")
+const params = new URLSearchParams(queryString);
+const chosenSong = params.get("song");
 
 
 
-// function updateSong(song) {
-//     const rollDetail = rolls[roll];
-//     const rollName = roll;
-//     console.log(roll);
-//     const rollPrice = rollDetail.basePrice;
-//     const rollImagePath = rollDetail.imageFile;
+function updateSong(song) {
+    const songDetail = songData[song];
+    const songName = song;
+    console.log (songDetail);
+    const albumName = songDetail.album;
+    const youtubeApiCode = songDetail.youtubeApiCode;
 
-//     document.querySelector(".chosen-image").src = "images/products/" + rollImagePath; 
-//     document.querySelector(".title").textContent = rollName + " Cinnamon Roll";
-//     document.querySelector(".price").textContent = "$" + rollPrice
+    document.querySelector(".video-title").textContent = songName;
+    document.querySelector(".album-name").textContent = albumName;
 
+    embedYouTubeVideo('AIzaSyDVs3TqBJ1--p5EEO5rOkVXJEtbE5dIC1M', youtubeApiCode);
+}
 
-// }
-
-// updateRoll(chosenSong)
+updateSong(chosenSong);
