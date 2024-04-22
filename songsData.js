@@ -23,13 +23,14 @@ const songData = {
 
     },
 
-    "Blood Sweat & Tears":
+    "Blood Sweat and Tears":
     {
         "album": "Wings",
         "youtubeApiCode": "hmE9f-TEutc",
-        "description": `The video starts with the members of BTS: RM, Jin, Suga, J-Hope, Jimin, V, Jungkook frolicking in what looks like a museum exhibit or the lobby of a glamorous manor. Even surrounded by gleaming marble pillars and artfully posed statues, the boys don't look the slightest bit out of place in their trappings of velvet brocade topped with sequin embellishments. No doubt, the set and costumes reeking of material excess are a gesture towards the level of desperation tingeing the song, in that if all this luxury still cannot satisfy BTS, they must be craving something that necessitates the sacrifice of possessions much more intimate and precious than money. From their “blood, sweat, and tears” to their “body, mind, and soul,” BTS seems to invite either their lover or a higher power to “take them all away.”`
+        "description": `The video starts with the members of BTS RM, Jin, Suga, J-Hope, Jimin, V, Jungkook frolicking in what looks like a museum exhibit or the lobby of a glamorous manor. Even surrounded by gleaming marble pillars and artfully posed statues, the boys don't look the slightest bit out of place in their trappings of velvet brocade topped with sequin embellishments. No doubt, the set and costumes reeking of material excess are a gesture towards the level of desperation tingeing the song, in that if all this luxury still cannot satisfy BTS, they must be craving something that necessitates the sacrifice of possessions much more intimate and precious than money. From their “blood, sweat, and tears” to their “body, mind, and soul,” BTS seems to invite either their lover or a higher power to “take them all away.”`
 
     },
+
 
     "Spring Day":
     {
