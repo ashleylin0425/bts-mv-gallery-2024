@@ -1,8 +1,7 @@
-const songs = ["No More Dream", "N.O", "Just one day"];
-
 
 const songData = {
-    "No More Dream": {
+    "No More Dream": 
+    {
         "album": "2 COOL 4 SKOOL",
         "youtubeApiCode": "l15_-4-_QO8",
         "description": `The music video for BTS's "No More Dream" may be interpreted as a representation of the transition from childhood to adolescence, when children are encouraged to dream big but teenagers are no longer. The song's lyrics encourage listeners to rebel against the idea that they need to know what they're doing and where they're headed, and to choose their own dreams over boring expectations. The song also mocks society's tendency to tell younger generations to "dream big" and "follow your dreams" but then stop them from doing so.`
@@ -76,7 +75,7 @@ const songData = {
         "description": `The music video for BTS's "Boy With Luv" tells a story of a boy and girl, with the girl representing ARMY and the boy representing BTS. The video includes clips from the Speak Yourself: Love Yourself Tour. The boy starts out sad and lonely, but the girl comes into his life and stays with him. The video also includes references to the 1952 musical movie Singing in the Rain. The song "Boy With Luv" is about finding joy in the smallest things in life, and how true strength and love come from that. RM has explained that the song is about matured love, while their 2014 song Boy In Luv is about teen love.`
 
     },
-    
+
     "Dynamite":
     {
         "album": `Dynamite`,
