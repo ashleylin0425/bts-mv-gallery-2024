@@ -56,14 +56,14 @@ const songData = {
     "FAKE LOVE":
     {
         "album": `LOVE YOURSELF 轉 'TEAR'`,
-        "youtubeApiCode": "7C2z4GqqS5E&t=1s",
+        "youtubeApiCode": "7C2z4GqqS5E",
         "description": `The music video (MV) for "Fake Love" has multiple interpretations: Her love is fake, My appearance in the mirror is fake, Her existence is fake, Each member's trauma, and Jungkook matures and creates a fake self. In the extended version of the MV, Jungkook enters a "secret passage" and joins the other members' fake selves in an attempt to gain love. However, they eventually crush their fake selves to find real love.`
     },
 
     "IDOL":
     {
         "album": `LOVE YOURSELF 結 'ANSWER'`,
-        "youtubeApiCode": "pBuZEGYXA6E&t=1s",
+        "youtubeApiCode": "pBuZEGYXA6E",
         "description": `IDOL combines traditional and modern concepts, with traditional Korean instruments and opera alongside modern electronic dance music and references to Hollywood movies. The video also includes references to Korean folklore, such as the rabbit in the moon, which is said to be preparing the recipe for immortality. Some interpret the video as BTS showing haters that they can't stop them from loving themselves. For example, during Namjoon's part, he puts filters on his face to show that he doesn't care what people say about him.`
     },
 
@@ -79,14 +79,14 @@ const songData = {
     "Dynamite":
     {
         "album": `Dynamite`,
-        "youtubeApiCode": "gdZLi9oWNZg&t=1s",
+        "youtubeApiCode": "gdZLi9oWNZg",
         "description": `The lyrics of "Dynamite" are "a much-needed burst of joy and invitation to join them, dance, and be a light, even when the world seems a little dark". RM, a member of BTS, described the song as "made of positive vibes, energy, hope, love, the purity, everything". The song is about the joy and appreciation of small things that make life valuable, and includes references to pop culture, such as King Kong, The Rolling Stones, and LeBron James.`
     },
 
     "Life Goes On":
     {
         "album": `BE`,
-        "youtubeApiCode": "-5q5mZbe3V8&t=2s",
+        "youtubeApiCode": "-5q5mZbe3V8",
         "description": `The music video for "Life Goes On" begins with a close-up of Tae driving, which is a motif that continues throughout the video. Some say that Tae represents the journey of doubt, while others say that the song is a message of hope to ARMY during difficult times. The song was written to reassure ARMY that people shouldn't give up, even though it was difficult to live during COVID. The first half of the song expresses the group's disappointment with the pandemic, while the second half shows them having a more positive outlook.`
     },
 
