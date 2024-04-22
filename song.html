@@ -22,31 +22,48 @@
 
 
 <body>
-    <nav class="col-md-4 sidebar">
-        <div class="logo-image">
-          <img src="logo.png" alt="logo">
+    <div class="container">
+        <div class="row">
+          <nav class="col-md-4 d-block sidebar">
+            <div class="logo-image">
+              <img src="logo.png" alt="logo">
+            </div>
+            <div class="sidebar-sticky">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="album.html">ALBUM</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <div class="sidebar-sticky">
-          <ul class="nav flex-column">
-            <!-- Your menu items -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+      </div>
+      
+      <!-- Mobile Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top d-lg-none">
+        <img class="nav-logo-image" src="logo.png" alt="logo">
+        <div class="navbar-nav ml-auto">
+          <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item active">
+              <a class="nav-link-top" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link-top" href="#">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ALBUM</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">MY FAVORITES</a>
+              <a class="nav-link-top" href="album.html">ALBUM</a>
             </li>
           </ul>
         </div>
     </nav>
-    <button class="toggle-button" onclick="toggleSidebar()">Toggle Sidebar</button>
-
-    <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4 content custom-height-restriction">
+    
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4 content custom-padding-top custom-height-restriction">
         <div class = "video-title">
             Dynamite (2021)
         </div>
@@ -59,7 +76,7 @@
           </video>
         </div>
         <div class="description">
-            Dynamite combines traditional and modern concepts, with traditional Korean instruments and opera alongside modern electronic dance music and references to Hollywood movies. The video also includes references to Korean folklore, such as the rabbit in the moon, which is said to be preparing the recipe for immortality. Some interpret the video as BTS showing haters that they can't stop them from loving themselves. For example, during Namjoon's part, he puts filters on his face to show that he doesn't care what people say about him. 
+            IDOL combines traditional and modern concepts, with traditional Korean instruments and opera alongside modern electronic dance music and references to Hollywood movies. The video also includes references to Korean folklore, such as the rabbit in the moon, which is said to be preparing the recipe for immortality. Some interpret the video as BTS showing haters that they can't stop them from loving themselves. For example, during Namjoon's part, he puts filters on his face to show that he doesn't care what people say about him. 
         </div>
     </main>
     

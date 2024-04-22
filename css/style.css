@@ -10,48 +10,27 @@
     object-fit: contain;
     transition: all 0.3s; /* Smooth transition */
     display: flex;
-    /* Background overlay */
-    &:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(151, 71, 255, 0.5); 
-    }
+}
+ 
+
+.sidebar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(151, 71, 255, 0.5);
 }
 
-/* Initially hide the toggle button and logo */
-.toggle-button,
-.logo-image {
-    display: none;
+.navbar{
+    height: 10%;
 }
 
-/* Show the sidebar only on larger screens */
-@media (min-width: 1200px) {
-    .sidebar {
-        display: flex;
-    }
-    /* Show the logo on larger screens */
-    .logo-image {
-        display: block;
-    }
+.nav-logo-image{
+    max-height: 100%;
+    width: auto;
 }
-
-/* Show the toggle button only on smaller screens */
-@media (max-width: 767px) {
-    .toggle-button {
-        display: block;
-    }
-    .sidebar {
-        display: none;
-    }
-    .video-title {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
-    }
-}
-
 
 .logo-image {
     position: absolute;
@@ -83,7 +62,7 @@
 
 
 .sidebar-sticky {
-    margin-top: auto;
+    margin-top: 570px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
@@ -119,12 +98,52 @@
 .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.5); /* Change background color on hover */
   }
-  
+
+.nav-link a {
+    text-decoration: none;
+    color: #EAB50D; 
+    font-weight: bold;
+    text-align: center; 
+    font-style: italic;
+    font-size: 18px;
+}
+
+.nav-item {
+   width: 100px;
+}
+
+.nav-link-top {
+    color: #EAB50D; /* Set the color of the text */
+    text-decoration: none; /* Remove underlines from the links */
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    background: rgba(0, 0, 0, 0.70);
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    text-align: center; 
+    font-style: italic;
+    font-size: 18px;
+  }
+
+
+.nav-link-top:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+    text-decoration: none;
+    color: white;
+
+  }
 
 
 /* ---------------main content styling------------------ */
 
-
+@media (max-width: 991.98px) {
+    .custom-padding-top {
+      padding-top: 56px; /* Adjust this value according to the height of your navigation bar */
+    }
+  }
 
 main {
     width: 75%;
@@ -150,8 +169,8 @@ main {
 
 .album-name {
     padding-left: 20px;
-    font-size: 20px; /* Adjust the font size as needed */
-    text-align: left; /* Center the text horizontally */
+    font-size: 20px; 
+    text-align: left; 
     color: #EAB50D; 
     text-align: left; 
     font-style: italic;

@@ -1,0 +1,68 @@
+@media (max-width: 991.98px) {
+  .custom-padding-top {
+    padding-top: 100px; /* Adjust this value according to the height of your navigation bar */
+  }
+}
+
+
+
+.album-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.album {
+  margin: 10px; /* Adjust spacing between albums */
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.album-image {
+  display: block;
+  width: 300px; /* Adjust image width as needed */
+  height: auto;
+}
+
+.album-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder; 
+  z-index: 1; 
+  opacity: 0; 
+  color: white;
+  font-size: 18px;
+}
+
+
+.album::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.59); /* Semi-transparent overlay color */
+  opacity: 0;
+}
+
+.album:hover .album-text{
+  opacity: 1;
+}
+
+.album:hover::before {
+  opacity: 1; 
+}
+
+
+.album:hover{
+  cursor: pointer;
+}
+
