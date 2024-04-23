@@ -337,7 +337,13 @@ input[type="email"]::placeholder {
     text-align: left; 
     font-style: italic;
 
-
-
-
 }
+
+
+.description {
+    margin: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.17);
+    padding: 15px;
+}
+
