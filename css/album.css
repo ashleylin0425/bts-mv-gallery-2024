@@ -2,6 +2,9 @@
   .custom-padding-top {
     padding-top: 100px; /* Adjust this value according to the height of your navigation bar */
   }
+  .album-image {
+    width: 150px;
+  }
 }
 
 
@@ -14,7 +17,7 @@
 }
 
 .album {
-  margin: 10px; /* Adjust spacing between albums */
+  margin: 15px; /* Adjust spacing between albums */
   position: relative;
   text-align: center;
   overflow: hidden;
@@ -23,7 +26,7 @@
 
 .album-image {
   display: block;
-  width: 300px; /* Adjust image width as needed */
+  width: 250px; /* Adjust image width as needed */
   height: auto;
 }
 
