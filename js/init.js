@@ -6,7 +6,7 @@ $(document).ready(function(){
         dots: true,
         speed: 500,
         infinite: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 2500,
         autoplay: true,
         centerMode: true,
         centerPadding: "0"    

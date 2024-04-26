@@ -1,8 +1,3 @@
-main {
-    width: 75%;
-    background-color: black;
-    margin-top: 0; /* Remove default margin */
-}
 
 
 .profile-container{
@@ -21,7 +16,7 @@ main {
 .member-photo {
     width: 30%;
     max-height: 100%;
-    object-fit: contain; /* Ensure the image fits inside the container while preserving aspect ratio */
+    object-fit: contain; 
   }
   
 
@@ -45,6 +40,6 @@ main {
 
 @media (max-width: 991.98px) {
     .member-photo {
-      display: none; /* Hide the profile photo on screens smaller than 768px */
+      display: none; 
     }
   }
