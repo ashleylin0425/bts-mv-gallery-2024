@@ -146,7 +146,7 @@ main {
     padding-left: 20px;
     font-size: 40px; 
     text-align: left; 
-    color: #F2CD53; 
+    color: #EAB50D; 
     font-weight: bold;
     font-style: italic;
   }
@@ -186,7 +186,7 @@ main {
     padding-left: 20px;
     font-size: 2rem; 
     text-align: left; 
-    color: #F2CD53; 
+    color: #EAB50D; 
     font-weight: bold;
     text-align: left; 
     font-style: italic;
@@ -232,7 +232,7 @@ main {
 
 .slick-dots li.slick-active button:before {
     opacity: .75;
-    color: #F2CD53 !important;
+    color: #EAB50D !important;
 }
 
 
@@ -243,7 +243,7 @@ main {
     font-size: 20px; 
     padding-left: 20px;
     text-align: left; 
-    color: #F2CD53; 
+    color: #EAB50D; 
     font-weight: bold;
     font-style: italic;
 }
