@@ -56,7 +56,7 @@ html,body{
 
 .sidebar a {
     text-decoration: none;
-    color: #EAB50D; 
+    color: #E3B53C; 
     font-weight: bold;
     text-align: center; 
     font-style: italic;
@@ -98,7 +98,7 @@ html,body{
 }
 
 .nav-link-top {
-    color: #EAB50D; 
+    color: #E3B53C; 
     display: inline-block;
     margin-left: 10px;
     border-radius: 10px;
@@ -146,7 +146,7 @@ main {
     padding-left: 20px;
     font-size: 40px; 
     text-align: left; 
-    color: #EAB50D; 
+    color: #E3B53C; 
     font-weight: bold;
     font-style: italic;
   }
@@ -155,7 +155,7 @@ main {
     padding-left: 20px;
     font-size: 20px; 
     text-align: left; 
-    color: #F2CD53; 
+    color: #E3B53C; 
     font-style: italic;
     font-weight: lighter;
 }
@@ -186,7 +186,7 @@ main {
     padding-left: 20px;
     font-size: 2rem; 
     text-align: left; 
-    color: #EAB50D; 
+    color: #E3B53C; 
     font-weight: bold;
     text-align: left; 
     font-style: italic;
@@ -232,7 +232,7 @@ main {
 
 .slick-dots li.slick-active button:before {
     opacity: .75;
-    color: #EAB50D !important;
+    color: #E3B53C !important;
 }
 
 
@@ -243,7 +243,7 @@ main {
     font-size: 20px; 
     padding-left: 20px;
     text-align: left; 
-    color: #EAB50D; 
+    color: #E3B53C; 
     font-weight: bold;
     font-style: italic;
 }
@@ -270,16 +270,16 @@ form {
 
 input[type="email"] {
     width: 60%;
-    border-color: #F2CD53;
+    border-color: #E3B53C;
     border-width: 2px;
     background-color: black;
-    color: #F2CD53;
+    color: #E3B53C;
 
   }
   
 
 input[type="email"]::placeholder {
-    color: #F2CD53;
+    color: #E3B53C;
     font-weight: lighter;
   }
 
@@ -287,7 +287,7 @@ input[type="email"]::placeholder {
 /*button*/
 
 .subscribe {
-    background-color: #EAB50D;
+    background-color: #E3B53C;
     text-decoration: none;
     cursor: pointer;
     color: black;
