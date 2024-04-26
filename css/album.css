@@ -1,6 +1,9 @@
+
+/* adjust main page when on mobile */
+
 @media (max-width: 991.98px) {
   .custom-padding-top {
-    padding-top: 100px; /* Adjust this value according to the height of your navigation bar */
+    padding-top: 100px; 
   }
   .album-image {
     width: 150px;
@@ -8,6 +11,7 @@
 }
 
 
+/* individual album styling */
 
 .album-container {
   display: flex;
@@ -17,18 +21,22 @@
 }
 
 .album {
-  margin: 15px; /* Adjust spacing between albums */
+  margin: 15px; 
   position: relative;
   text-align: center;
-  overflow: hidden;
 }
 
 
 .album-image {
   display: block;
-  width: 250px; /* Adjust image width as needed */
+  width: 250px; 
   height: auto;
 }
+
+
+
+
+/* album hover effects */
 
 .album-text {
   position: absolute;
@@ -52,7 +60,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(30, 30, 30, 0.59); /* Semi-transparent overlay color */
+  background-color: rgba(30, 30, 30, 0.59); 
   opacity: 0;
 }
 

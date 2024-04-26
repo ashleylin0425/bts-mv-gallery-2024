@@ -1,15 +1,20 @@
+
+html,body{
+    height: 100%;
+}
+
+/*left sidebar styling*/
+
 .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 350px; /* Size for desktop */
+    width: 25%; 
     background-image: url("sidebar.jpeg");
     background-size: cover; 
     background-position: center; 
     object-fit: contain;
-    transition: all 0.3s; /* Smooth transition */
-    display: flex;
 }
  
 
@@ -23,14 +28,6 @@
     background: rgba(151, 71, 255, 0.5);
 }
 
-.navbar{
-    height: 10%;
-}
-
-.nav-logo-image{
-    max-height: 100%;
-    width: auto;
-}
 
 .logo-image {
     position: absolute;
@@ -38,27 +35,17 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1; /* Ensure the image appears on top */
-    /* Center the logo */
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 20px;
-    text-align: center;
+    z-index: 1; 
 }
 
 .logo-image img {
-    max-width: 100%; /* Make sure the logo does not exceed the container width */
-    height: auto; /* Maintain the aspect ratio of the logo */
-    vertical-align: top;
+    max-width: 100%; 
 }
 
-/* Optional: Add styles to make the sidebar look better */
-.sidebar {
-    border-right: 1px solid #ccc; /* Border on the right side */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    width: 25%;
-}
+
+
+
+/* ---------------side bar nav items styling------------------ */
 
 
 .sidebar-sticky {
@@ -67,9 +54,6 @@
     padding-left: 10px;
 }
 
-
-/* ---------------nav items styling------------------ */
-
 .sidebar a {
     text-decoration: none;
     color: #EAB50D; 
@@ -77,6 +61,14 @@
     text-align: center; 
     font-style: italic;
     font-size: 18px;
+    background: rgba(0, 0, 0, 0.70);
+    display: inline-block;
+    padding: 5px 15px; 
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+
 }
 
 .sidebar a:hover {
@@ -85,36 +77,28 @@
 
 
 
-.nav-link {
-    display: inline-block;
-    padding: 5px 15px; 
-    margin-bottom: 10px; 
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.70);
-    position: relative;
-    z-index: 1;
-  }
-  
-.nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.5); /* Change background color on hover */
-  }
 
-.nav-link a {
-    text-decoration: none;
-    color: #EAB50D; 
-    font-weight: bold;
-    text-align: center; 
-    font-style: italic;
-    font-size: 18px;
+/*top navbar styling*/
+
+.navbar{
+    height: 70px;
 }
+
+.navbar img {
+    width: 70px;
+}
+
+
+/* top nav bar items styling */ 
+
+  
 
 .nav-item {
    width: 100px;
 }
 
 .nav-link-top {
-    color: #EAB50D; /* Set the color of the text */
-    text-decoration: none; /* Remove underlines from the links */
+    color: #EAB50D; 
     display: inline-block;
     margin-left: 10px;
     border-radius: 10px;
@@ -130,25 +114,26 @@
 
 
 .nav-link-top:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+    background-color: rgba(255, 255, 255, 0.1);
     text-decoration: none;
     color: white;
 
   }
 
 
+
 /* ---------------main content styling------------------ */
 
 @media (max-width: 991.98px) {
     .custom-padding-top {
-      padding-top: 56px; /* Adjust this value according to the height of your navigation bar */
+      padding-top: 60px; 
     }
   }
 
 main {
     width: 75%;
-    transition: all 0.3s; /* Smooth transition */
     background-color: black;
+  
 
 }
 
@@ -159,11 +144,10 @@ main {
 .video-title {
     padding-top: 40px;
     padding-left: 20px;
-    font-size: 2rem; /* Adjust the font size as needed */
-    text-align: left; /* Center the text horizontally */
+    font-size: 40px; 
+    text-align: left; 
     color: #EAB50D; 
     font-weight: bold;
-    text-align: left; 
     font-style: italic;
   }
 
@@ -172,7 +156,6 @@ main {
     font-size: 20px; 
     text-align: left; 
     color: #EAB50D; 
-    text-align: left; 
     font-style: italic;
     font-weight: lighter;
 }
@@ -186,28 +169,13 @@ main {
 .video-container {
     width: 100%;
     height: 50%;
-    overflow: hidden;
     margin: auto;
 }
 
 .video-container video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-html, body {
-    height: 100%;
-}
-
-
-.custom-height-restriction {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Set minimum height to 100% of viewport height */
 }
 
 
@@ -216,8 +184,8 @@ html, body {
 
 .carousel-title {
     padding-left: 20px;
-    font-size: 2rem; /* Adjust the font size as needed */
-    text-align: left; /* Center the text horizontally */
+    font-size: 2rem; 
+    text-align: left; 
     color: #EAB50D; 
     font-weight: bold;
     text-align: left; 
@@ -261,6 +229,7 @@ html, body {
 
 }
 
+
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: #EAB50D !important;
@@ -270,20 +239,20 @@ html, body {
 /* ---------------subscription bar styling------------------ */
 
 
-.footer {
-    display: flex;
-    width: 100%;
-    padding-left: 20px;
-}
-
 .subscription-bar-title {
     font-size: 20px; 
     padding-left: 20px;
     text-align: left; 
     color: #EAB50D; 
     font-weight: bold;
-    text-align: left; 
-    font-style: italic;}
+    font-style: italic;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+}
+
 
 .subscription-bar{
     text-align: left;
@@ -293,18 +262,6 @@ html, body {
 
 }
 
-.social-icons {
-    flex-direction: row;
-    display: flex;
-    width: 40%;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.social-icons img {
-    cursor: pointer;
-}
-
 
 form {
     padding-top: 15px;
@@ -312,7 +269,7 @@ form {
 }
 
 input[type="email"] {
-    width: 70%;
+    width: 60%;
     border-color: #EAB50D;
     border-width: 2px;
     background-color: black;
@@ -327,6 +284,8 @@ input[type="email"]::placeholder {
   }
 
 
+/*button*/
+
 .subscribe {
     background-color: #EAB50D;
     text-decoration: none;
@@ -340,6 +299,27 @@ input[type="email"]::placeholder {
 }
 
 
+/*social media icon*/
+
+.social-icons {
+    flex-direction: row;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-icons img {
+    cursor: pointer;
+}
+
+
+/*styling for mv interpretation*/
+
+.description-container {
+    padding-top: 10px;
+    padding-bottom: 15px; 
+}
 .description {
     margin: 20px;
     border-radius: 10px;
@@ -347,3 +327,14 @@ input[type="email"]::placeholder {
     padding: 15px;
 }
 
+/*hide the form label but make sure the screen readers have access to it*/
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+  

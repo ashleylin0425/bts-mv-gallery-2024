@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BTS MV Gallery</title>
   <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <link rel= "stylesheet" href="css/style.css" />
   <link rel= "stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel= "stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-  <link rel="icon" href="logo.png">
+  <link rel="icon" href="assets/logo.png"/>
 
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-  <script defer type="text/javascript" src="init.js"></script>
+  <script defer type="text/javascript" src="js/init.js"></script>
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
  
@@ -26,7 +26,7 @@
     <div class="row">
       <nav class="col-md-4 d-block sidebar">
         <div class="logo-image">
-          <img src="logo.png" alt="logo">
+          <img src="assets/logo.png" alt="logo">
         </div>
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
@@ -34,7 +34,7 @@
               <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="album.html">ALBUM</a>
@@ -47,14 +47,16 @@
   
   <!--Mobile Navigation Bar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top d-lg-none">
-    <img class="nav-logo-image" src="logo.png" alt="logo">
+    <a class="navbar-logo" href="index.html">
+      <img src="assets/logo.png" alt="logo"/>
+    </a>
     <div class="navbar-nav ml-auto">
       <ul class="navbar-nav d-flex flex-row">
         <li class="nav-item active">
           <a class="nav-link-top" href="index.html">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-top" href="#">ABOUT</a>
+          <a class="nav-link-top" href="about.html">ABOUT</a>
         </li>
         <li class="nav-item">
           <a class="nav-link-top" href="album.html">ALBUM</a>
@@ -64,7 +66,7 @@
   </nav>
 
   
-  <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4 content custom-padding-top custom-height-restriction">
+  <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4 content custom-padding-top">
     <div class = "video-title">
       Dynamite (2021)
     </div>
@@ -83,19 +85,19 @@
     </div>
     <div class="slider">
       <a href="song.html?song=Boy With Luv">
-        <img src="assets/boyWithLuv.jpeg" alt="boy with luv">
+        <img src="assets/boyWithLuv.jpeg" alt="boy with luv"/>
       </a>
       <a href="song.html?song=I NEED U">
-        <img src="assets/iNeedU.jpeg" alt="i need u">
+        <img src="assets/iNeedU.jpeg" alt="i need u"/>
       </a>
       <a href="song.html?song=IDOL">
-        <img src="assets/idol.jpeg" alt="idol">
+        <img src="assets/idol.jpeg" alt="idol"/>
       </a>
       <a href="song.html?song=Life Goes On">
-        <img src="assets/lifeGoesOn.jpeg" alt="life goes on">
+        <img src="assets/lifeGoesOn.jpeg" alt="life goes on"/>
       </a>
       <a href="song.html?song=FAKE LOVE">
-        <img src="assets/fakeLove.png" alt="fake love">
+        <img src="assets/fakeLove.png" alt="fake love"/>
       </a>
     </div>
     
@@ -105,14 +107,21 @@
     <div class="footer">
       <div class="subscription-bar">
         <form action="subscribe.php" method="POST">
-          <input type="email" name="email" placeholder="  Enter your email" required>
-          <button class ="subscribe">Subscribe</button>
+          <label for="email" class="hidden">Enter your email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          <button class="subscribe" type="submit">Subscribe</button>
         </form>
-      </div>
+      </div>      
       <div class="social-icons">
-        <img src="assets/facebook.png" alt="facebook">
-        <img src="assets/instagram.png" alt="instagram">
-        <img src="assets/x.png" alt="X">
+        <a href="https://www.facebook.com/bangtan.official/">
+          <img src="assets/facebook.png" alt="facebook"/>
+        </a>
+        <a href="https://www.instagram.com/bts.bighitofficial/?hl=en">
+          <img src="assets/instagram.png" alt="instagram"/>
+        </a>
+        <a href="https://twitter.com/bts_bighit">
+          <img src="assets/x.png" alt="X"/>
+        </a>
       </div>
     </div>
     

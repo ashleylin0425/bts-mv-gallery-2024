@@ -1,0 +1,50 @@
+main {
+    width: 75%;
+    background-color: black;
+    margin-top: 0; /* Remove default margin */
+}
+
+
+.profile-container{
+    padding: 20px;
+}
+
+.member-profile {
+    display: flex;
+    flex-direction: row;
+    background: rgba(136, 99, 205, 0.81);
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.member-photo {
+    width: 30%;
+    max-height: 100%;
+    object-fit: contain; /* Ensure the image fits inside the container while preserving aspect ratio */
+  }
+  
+
+.member-description{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.member-description h2 {
+    color: #EAC70D;
+    font-size: 30px;
+    font-weight: 800;
+}
+.member-description p {
+    color: rgba(255, 255, 255, 0.84);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (max-width: 991.98px) {
+    .member-photo {
+      display: none; /* Hide the profile photo on screens smaller than 768px */
+    }
+  }
