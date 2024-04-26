@@ -146,7 +146,7 @@ main {
     padding-left: 20px;
     font-size: 40px; 
     text-align: left; 
-    color: #EAB50D; 
+    color: #F2CD53; 
     font-weight: bold;
     font-style: italic;
   }
@@ -155,7 +155,7 @@ main {
     padding-left: 20px;
     font-size: 20px; 
     text-align: left; 
-    color: #EAB50D; 
+    color: #F2CD53; 
     font-style: italic;
     font-weight: lighter;
 }
@@ -186,7 +186,7 @@ main {
     padding-left: 20px;
     font-size: 2rem; 
     text-align: left; 
-    color: #EAB50D; 
+    color: #F2CD53; 
     font-weight: bold;
     text-align: left; 
     font-style: italic;
@@ -232,7 +232,7 @@ main {
 
 .slick-dots li.slick-active button:before {
     opacity: .75;
-    color: #EAB50D !important;
+    color: #F2CD53 !important;
 }
 
 
@@ -243,7 +243,7 @@ main {
     font-size: 20px; 
     padding-left: 20px;
     text-align: left; 
-    color: #EAB50D; 
+    color: #F2CD53; 
     font-weight: bold;
     font-style: italic;
 }
@@ -270,16 +270,16 @@ form {
 
 input[type="email"] {
     width: 60%;
-    border-color: #EAB50D;
+    border-color: #F2CD53;
     border-width: 2px;
     background-color: black;
-    color: #EAB50D;
+    color: #F2CD53;
 
   }
   
 
 input[type="email"]::placeholder {
-    color: #EAB50D;
+    color: #F2CD53;
     font-weight: lighter;
   }
 
